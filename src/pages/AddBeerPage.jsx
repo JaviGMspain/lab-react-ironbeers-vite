@@ -25,7 +25,7 @@ function AddBeerPage() {
       .then(response => response.json())
       .then(data => {
         console.log(data);
-        alert("Cerveza añadida con éxito");
+        alert("Beer successfully added");
       })
       .catch(error => console.error(error));
   };
